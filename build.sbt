@@ -1,4 +1,3 @@
-
 organization := "name.heikoseeberger.g8"
 
 name := "vanilla.g8"

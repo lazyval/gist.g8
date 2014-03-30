@@ -4,12 +4,11 @@ name := "$name$"
 
 // version is defined in version.sbt in order to support sbt-release
 
-scalaVersion := "2.10.3"
+scalaVersion := "2.10.4"
 
-scalacOptions ++= Seq("-unchecked", "-deprecation")
+scalacOptions ++= Seq("-unchecked", "-deprecation", "-Xlint")
 
 libraryDependencies ++= Seq(
-  "com.typesafe" % "config" % "1.0.2",
   "org.specs2" %% "specs2" % "2.0" % "test"
 )
 

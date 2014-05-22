@@ -13,3 +13,16 @@ libraryDependencies ++= Seq(
 )
 
 initialCommands in console := "import $organization$._"
+
+
+scalaSource in Compile := baseDirectory.value
+
+scalaSource in Test := baseDirectory.value
+
+javaSource in Compile := baseDirectory.value
+
+javaSource in Test := baseDirectory.value
+
+resourceDirectory in Compile := baseDirectory.value
+
+resourceDirectory in Test := baseDirectory.value
